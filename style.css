@@ -1,0 +1,25 @@
+/* The 03 demo's stylesheet. index.html links it by a relative path (href="style.css");
+   step 6 of the replay changes that to an absolute path on purpose, to watch the page break. */
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #16324f;
+  color: #f4f1ea;
+}
+
+main {
+  max-width: 40rem;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ffd166;
+}
+
+.note {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
